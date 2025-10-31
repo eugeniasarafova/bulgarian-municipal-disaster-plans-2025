@@ -5,7 +5,7 @@ This repository contains data compiled and analyzed for the study “How Bulgari
 The dataset provides comprehensive information on the public accessibility and structure of municipal disaster protection plans across all 265 municipalities in Bulgaria. It includes both a tabular summary of the research results and a geospatial layer for mapping and spatial analysis. The data were compiled through a systematic review of official municipal websites (March–August 2025) and analyzed using an AI-assisted workflow implemented in ChatGPT-5 with Python libraries for text extraction, structuring, and validation.
 
 ## Data Files
-1. Data_result_table.xlsx
+### Data_result_table.xlsx
 
 An Excel table containing metadata and results from the systematic search and analysis of municipal disaster protection plans.
 Columns:
@@ -19,7 +19,7 @@ Columns:
 7. *Comment* - comment regarding the availability or other situation
 8. *URL* - the web address of the plan if it was discovered
 
-2. Municipalities_plans.geojson
+###Municipalities_plans.geojson
 
 A polygon layer of all Bulgarian municipalities with same attributes as the Excel table.
 Source: Eurostat GISCO 2024 (simplified geometry).
